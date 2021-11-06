@@ -1,0 +1,775 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+#user{
+    margin-left: 20%;
+}
+#checkk{
+    color: #6e98f1;
+}
+#twit{
+    color: rgb(0, 0, 255);
+}
+#insta{
+    color: orangered;
+}
+#star{
+    color: yellow;
+}
+#bell{
+  
+    color: orangered;  
+}
+#dom{
+    color: greenyellow;
+}
+#end{
+    color: blue;
+}
+#google{
+    color: blue;
+}
+#twitt{
+    color: #6e98f1;
+    margin-left: 60%;
+}
+
+span{
+    font-size: 15px;
+    color:#000;
+}
+.nav-head{
+    width: 70%;
+    padding: 20px;
+    padding-left: 150px;
+}
+.heading{
+    color: rgb(28, 15, 75);
+    font-size: 25px;
+    padding: 10px;
+}
+.navitem{
+    margin-right: 10px;
+    color: rgb(68, 67, 67);
+}
+.Login-btn{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.btn{
+    background-color: rgb(10, 10, 253);
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    width: 90px;
+    height: 36px;
+    font-size: 18px;
+    border: none;
+    margin-left: 30px;
+}
+.navitem:hover{
+    color:rgb(10, 10, 253) ;
+}
+/* ============================================================================================ */
+
+/* section2 */
+.secoundsection{
+    background-color: #eee;
+}
+.ourdiv{
+    display: flex;
+}
+.divwork{
+    width: 50%;
+}
+.ourimg{
+    margin-left: 100px;
+}
+.ourname{
+    margin-left: 150px;
+    margin-top: 90px;
+}
+.nameour{ 
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.ourpara{
+    color:rgb(110, 109, 109) ;
+    margin-bottom: 30px;
+}
+.ourinput{
+    height: 40px;
+    width: 300px;
+    border: 1px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.ourinput:hover{
+    background-color: rgb(243, 198, 198);
+    color: rgb(27, 27, 27);
+    cursor: pointer;
+    border: 1px solid rgb(19, 18, 18);
+}
+.ourbutton{
+    height: 40px;
+    width: 87px;
+    background-color: brown;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    border: 10x;
+    border-radius: 5px;
+}
+.ourbutton:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+.lastdiv{
+    display: flex;
+}
+.lastpara{
+    text-transform: capitalize;
+    color: rgb(110, 109, 109);
+    font-size: 13px;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+/* ============================================================================================ */
+/* section3 */
+.thirdsection{
+    background-color: white;
+}
+.formthird{
+    margin: auto;
+    width: 80%;
+    height: 350px;
+}
+.workdiv{
+    display: flex;
+}
+.worked{
+    margin: auto;
+    width: 300px;
+    height:200px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow:5px 5px #eee ; 
+    text-align: center;
+}
+ .workhead{
+    text-align: center;
+    padding: 15px 10px;
+    color: rgb(2, 2, 90);
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.workheadhere{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(6, 6, 128);
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.workpara{
+    color: rgb(110, 109, 109);
+    text-align: center;
+    margin: 10px;
+}
+.divwork:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.divwork .workheadhere:hover{
+    color: rgb(12, 12, 12);
+}
+.divwork .workpara:hover{
+    color: #000;
+} 
+/* ============================================================================================ */
+
+/* section4 */
+.foursection{
+    background-color: #eee;
+}
+.videoform{
+    width: 80%;
+    height: 650px;
+    margin: auto;
+}
+.fourdiv{
+    display: flex;
+}
+.videodescrip{
+    width: 50%;
+    margin-top: 100px;
+}
+.vidpara{
+    color:rgb(110, 109, 109) ;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.vidhead{
+    color: rgb(6, 6, 128);
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.linkh2{
+    color: rgb(201, 20, 20);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.headingff{
+    display: flex;
+    margin-bottom: 70px;
+}
+.img4head{
+    text-align: center;
+    color: rgb(6, 6, 128);
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.nineimg{
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.nineimage{
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 100px;
+}
+.img{
+    background-color: white;
+    width: 200px;
+    height: 110px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px white;
+    margin-top: 30px;
+    margin: 7px;
+}
+.fiveimg{
+    padding: 10px 10px;
+    margin-left: 30px;
+}
+.fourimages{
+    padding: 10px 10px;
+    margin-left: 30px;
+    margin: auto;
+}
+/* ============================================================================================ */
+
+/* section5 */
+.fivesection{
+    background-color: white; 
+}
+.imgour{
+    margin-left: 100px;
+}
+.fivediv{
+    display: flex;
+}
+.discripdigital{
+    width: 50%;
+    padding: 40px 80px;
+}
+.oneimghere{
+    width: 50%;
+}
+.ggdegitail{
+    font-size: 29px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(6, 6, 128);
+}
+.digitalpara{
+    color:rgb(110, 109, 109) ;
+    font-size: 16;
+    margin-bottom: 20px;
+}
+.threeparahere{
+    color:rgb(110, 109, 109) ;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+.degitilbutton{
+    width: 130px;
+    height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #5587f3;
+    color: #fff;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-top: 30px;
+}
+.degitilbutton:hover{
+    background-color: #fff;
+    color: rgb(63, 42, 253);
+    cursor: pointer;
+}
+/* ============================================================================================ */
+
+/* section6 */
+.sixsection{
+    background-color:#eee ;
+}
+.fasthead{
+    text-transform: capitalize;
+    color: rgb(2, 2, 90);
+    font-size: 22px;
+    text-align: center;
+    padding: 30px;
+}
+.fastsform{
+    width: 80%;
+    margin: auto;
+    padding: 20px 20px;
+    margin-top: 30px;
+}
+.fiveiconhere{
+    display: flex;
+}
+.divishere{
+    width: 120px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.divheadingandicon{
+    color: rgb(2, 2, 90);
+    text-align: center;
+}
+.divparahereandicon{
+    color: rgb(82, 82, 82);
+    font-size: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* ============================================================================================ */
+
+/* section7 */
+.sevensection{
+    background-color: white;
+}
+.teamheading{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    color: rgb(2, 2, 90);
+}
+.formperson{
+    width: 70%;
+    margin: auto;
+}
+.teamdiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.boxdivteam{
+    height: 450px;
+    width: 250px;
+    margin: auto;
+    padding: 30px;
+}
+.personimg{
+    border-radius: 10px;
+}
+.teamname{
+    text-transform: capitalize;
+    color: rgb(2, 2, 90);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.personwork{
+    text-align: center;
+    color: rgb(110, 109, 109);
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.workpara2{
+    color:rgb(82, 82, 82) ;
+    text-align: center;
+}
+/* ============================================================================================ */
+
+/* section8 */
+.eghitsection{
+    background-color: #eee;
+}
+.smallform{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+}
+.smallsection{
+    display: flex;
+    justify-content: space-between;
+}
+.dicdiv{
+    width: 50%;
+}
+.boxiesdiv{
+    background-color: white;
+    margin: 40px;
+    padding: 10px 15px;
+    box-shadow: 3px 3px 3px gray;
+}
+.headboxies{
+   color: rgb(2, 2, 90); 
+   font-size: 20px;
+   padding: 5px;
+}
+.paraboxies{
+    color: rgb(106, 106, 107); 
+    padding: 5px;
+    font-size: 15px;
+}
+.dicdiv{
+    margin-top: 100px;
+    /* margin-bottom: 50px; */
+}
+.headinghere{
+    color: rgb(2, 2, 90); 
+    font-size: 35px;
+    margin-top: 70px ;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.paraherediv{
+    color: rgb(106, 106, 107); 
+    font-size: 17px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.twolink{
+    display: flex;
+}
+.linkedupwork{
+    margin: 50px;
+    font-size: 20px;
+    color: rgb(3, 3, 128); 
+}
+/* ============================================================================================ */
+
+/* section9 */
+.ninesection{
+    background-color: white;
+}
+.headingtonine{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    color: rgb(2, 2, 90);
+}
+.priceform{
+    margin: auto;
+    width: 80%;
+}
+.parentDiv{
+    display: flex;
+}
+.box{
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding: auto;
+    width: 270px;
+    height: 400px;
+    background-color:white;
+    box-shadow:5px 5px  5px 10px#eee ; 
+}
+.salary{
+    text-align: center;
+    margin-top: 30px;
+}
+.headname{
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 7px;
+    color: rgb(2, 2, 90);
+}
+.doller{
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: rgb(1, 1, 44); 
+}
+.monthhead{
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: rgb(106, 106, 107); 
+}
+.paragrah{
+    margin: 15px;
+    padding: 0px 15px;
+}
+.button{
+    text-align: center;
+    padding: 30px;
+}
+.button-div{
+    width: 150px;
+    height: 40px;
+    border: 2px solid #6e98f1;
+    border-radius: 5px;
+    margin-bottom: 70px;
+    color:rgb(99, 99, 245) ;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+.button .button-div:hover{
+    cursor: pointer;
+    background-color: #6e98f1;
+    color: white;
+}
+/* ============================================================================================ */
+
+/* section10 */
+.tensection{
+    background-color: #eee;
+}
+.tenhead{
+    text-transform: capitalize;
+    color: rgb(2, 2, 90);
+    font-size: 27px;
+    text-align: center;
+    padding: 30px;
+}
+.amazingform{
+    width: 90%;
+    margin: auto;
+}
+.divvhead{
+    color: rgb(2, 2, 122);
+    font-size: 20px;
+}
+.tendivhere{
+    display: flex;
+}
+.firstone{
+    margin: auto;
+    display: flex;
+}
+.boxdivv{
+    height: 100px;
+    width: 200px;
+    margin: 30px;
+}
+.firsttwo{
+    display: flex;
+    margin: auto;
+}
+.paragdivv{
+    margin-top: 5px;
+    color: rgb(106, 106, 107); 
+}
+/* ============================================================================================ */ 
+/* section11 */
+.elevensection{
+    background-color:white ;
+}
+.elevendiv{
+    display: flex;
+}
+.elevenname{
+    width: 50%;
+}
+.elevenimg{
+    width: 50%;
+}
+.ourpara11{
+    margin-top: 150px;
+    /* margin-left: 180px; */
+    text-align: center;
+    font-size: 24px;
+    color:rgb(106, 106, 107) ;
+    margin-bottom: 40px;
+}
+.nameour11{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color:rgb(2, 2, 122) ;
+}
+.pp{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(18, 139, 238);
+}
+/* ============================================================================================ */
+
+/* section12 */
+.twelvesection{
+    background-color: #eee;
+}
+.plogheading{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    color: rgb(2, 2, 90);
+    padding: 30px;
+    font-size: 30px;
+}
+.plogform{
+    margin: auto;
+    width: 80%;
+}
+.plogdiv{
+    display: flex;
+}
+.boxdivplog{
+    background-color: white;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 270px;
+    height: 400px;
+    background-color:white;
+    box-shadow:5px 5px  5px 10px#eee ; 
+}
+.plogimg{
+    border-radius: 5px;
+}
+.plogname{
+    font-size: 17px;
+    color: rgb(2, 2, 90);
+    padding: 10px;
+    text-transform: capitalize;
+    margin-bottom: 3px;
+}
+.plogwork{
+    font-size: 13px;
+    color: rgb(106, 106, 107); 
+    padding: 5px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.plogpara{
+    font-size: 15px;
+    color: rgb(79, 79, 80); 
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+/* ============================================================================================ */
+
+/* section13 */
+.footerform{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+}
+.lastthinghere{
+    display: flex;
+    margin-top: 60px;
+}
+.maptolocation{
+    margin: auto;
+    width: 50%;
+}
+.map{
+    border-radius: 10px;
+}
+.lastheading{
+    text-transform: capitalize;
+    color:rgb(2, 2, 90) ;
+    font-size: 20px;
+    padding: 5px;
+}
+.morediv{
+    text-transform: capitalize;
+    color:rgb(2, 2, 90) ;
+    font-size: 17px;
+    padding: 5px;
+}
+.lastpara{
+    padding: 3px;
+    color: rgb(106, 106, 107); 
+    font-size: 14px;
+}
+.countacthead{
+    text-transform: capitalize;
+    color:rgb(2, 2, 90) ;
+    font-size: 17px;
+    padding: 5px;
+}
+.lastinput{
+    display: block;
+    width: 90%;
+    height: 50px;
+    text-transform: capitalize;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #eee;
+    border: none;
+    padding: 10px;
+}
+.textearea{
+    display: block;
+    width: 90%;
+    text-transform: capitalize;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #eee;
+    border: none;
+    padding: 10px;
+}
+.lastbutton{
+    width: 130px;
+    height: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #5587f3;
+    color: #fff;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.Thirteensection{
+    background-color: white;
+}
+.finash{
+    background-color:#eee ;
+    height: 50px;
+    width: 100%;
+}
+.finashpara{
+    margin: 20px;
+    color:rgb(2, 2, 90) ;
+    padding: 15px;
+}
+.a{
+    color: rgb(67, 67, 247);
+}
